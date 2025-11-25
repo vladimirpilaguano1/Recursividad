@@ -17,6 +17,11 @@ void imprimirSerie(int n){
 }
 
 int main(){
-	imprimirSerie(5);
+	int numero;
+	cout << "Ingrese la cantidad de terminos: ";
+	cin >> numero;
+	
+	imprimirSerie(numero - 1);
+	
 	return 0;
 }
