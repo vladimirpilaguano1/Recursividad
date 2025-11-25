@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+void abrirmuñecas(int numero){
+	if (numero==1){
+		cout<<"abre la muñeca";
+		return;
+	}
+	cout<<"Abriendo muñeca "<<numero<<endl;
+	abrirmuñecas(numero-1);
+}
+int main(){
+	abrirmuñecas(8);
+    return 0;
+}
